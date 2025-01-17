@@ -10,18 +10,31 @@ body {
 .navbar-nav .nav-link.show {
   color: rgb(206 206 206 / 80%);
 }
-nav-link .dropdown-toggle {
-  color: rgb(206 206 206 / 80%);
-}
+
 .nav-link:hover {
   color: white;
 }
 .netflix-navbar a {
   color: rgb(206 206 206 / 80%);
 }
+
+.navbar-brand img {
+  width: 100px;
+}
+nav-link .dropdown-toggle {
+  color: rgb(206 206 206 / 80%);
+}
 .dropdown-toggle::after {
   content: none;
 }
-.navbar-brand img {
-  width: 100px;
+.dropdown-menu.show {
+  background-color: rgb(33, 33, 33);
+  opacity: 70%;
+}
+i {
+  color: rgb(206 206 206 / 80%);
+}
+a.kids {
+  padding: 8px;
+  text-decoration: none;
 }
