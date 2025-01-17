@@ -88,5 +88,8 @@ section ul.dropdown-menu.show {
 .carousel-indicators {
   position: unset;
 }
+.boxMovies {
+  margin-bottom: 20em;
+}
 
 /*footer*/
