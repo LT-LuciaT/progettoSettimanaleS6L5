@@ -89,6 +89,7 @@ section ul.dropdown-menu.show {
 
 .carousel-indicators {
   position: unset;
+  margin-right: 5px;
 }
 .boxMovies,
 .boxMovies2,
@@ -97,3 +98,6 @@ section ul.dropdown-menu.show {
 }
 
 /*footer*/
+i {
+  margin-left: 5px;
+}
