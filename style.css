@@ -45,3 +45,17 @@ a.kids {
   border-radius: 2px;
   margin-left: 8px;
 }
+.profile img {
+  width: 100%;
+}
+.bi::before,
+[class*=" bi-"]::before,
+[class^="bi-"]::before {
+  color: rgb(206 206 206 / 80%);
+}
+button.navbar-toggler {
+  border: none;
+}
+.btn.btn-outline-success {
+  border: none;
+}
