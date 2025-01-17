@@ -104,3 +104,31 @@ i {
 .icone {
   margin-bottom: 2em;
 }
+h5 {
+  font-size: 1rem;
+}
+footer.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 500px) {
+  footer {
+    flex: 0 0 auto;
+    margin-inline: auto;
+    width: 0;
+    font-size: x-small;
+    text-align: center;
+  }
+  .btn-outline-light {
+    font-size: x-small;
+    text-align: center;
+  }
+  h5 {
+    font-size: small;
+  }
+
+  .row {
+    max-width: fit-content;
+  }
+}
