@@ -89,21 +89,4 @@ section ul.dropdown-menu.show {
   position: unset;
 }
 
-.card {
-  width: 250px;
-  background-color: rgb(33, 33, 33);
-  border-radius: 4px;
-  transition: 0, 2 linear;
-  margin: 3px;
-  position: relative;
-}
-.card:hover {
-  transform: scale(1.4);
-  z-index: 10;
-}
-@media screen and (min-width: 800px) {
-  .card {
-    width: 200px;
-  }
-}
 /*footer*/
