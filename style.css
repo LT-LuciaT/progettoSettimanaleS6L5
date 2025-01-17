@@ -1,6 +1,7 @@
 body {
   background-color: rgb(33, 33, 33);
   overflow-x: hidden;
+  color: rgb(206 206 206 / 80%);
 }
 h1 {
   color: white;
