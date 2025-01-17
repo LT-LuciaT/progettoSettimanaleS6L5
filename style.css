@@ -22,3 +22,6 @@ nav-link .dropdown-toggle {
 .dropdown-toggle::after {
   content: none;
 }
+.navbar-brand img {
+  width: 100px;
+}
