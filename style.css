@@ -11,20 +11,27 @@ h1 {
 .netflix-navbar {
   background-color: rgb(33, 33, 33);
 }
+navbar-nav me-auto mb-2 mb-lg-0 {
+  color: rgb(206 206 206 / 80%);
+}
+
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
   color: rgb(206 206 206 / 80%);
 }
-
 .nav-link:hover {
   color: white;
 }
+
 .netflix-navbar a {
   color: rgb(206 206 206 / 80%);
 }
 
 .navbar-brand img {
   width: 100px;
+}
+a.nav-link {
+  color: rgb(206 206 206 / 80%);
 }
 nav-link.dropdown-toggle {
   color: rgb(206 206 206 / 80%);
@@ -34,7 +41,6 @@ a.nav-link.dropdown-toggle.dropdown-toggle::after {
 }
 .dropdown-menu.show {
   background-color: rgb(33, 33, 33);
-  opacity: 70%;
 }
 i {
   color: rgb(206 206 206 / 80%);
