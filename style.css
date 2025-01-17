@@ -84,5 +84,7 @@ section ul.dropdown-menu.show {
 }
 
 /*movies*/
-
+.carousel-indicators {
+  position: unset;
+}
 /*footer*/
