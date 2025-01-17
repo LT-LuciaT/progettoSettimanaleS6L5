@@ -2,6 +2,11 @@ body {
   background-color: rgb(33, 33, 33);
   overflow-x: hidden;
 }
+h1 {
+  color: white;
+  padding: 1em;
+}
+/*nav-bar*/
 
 .netflix-navbar {
   background-color: rgb(33, 33, 33);
@@ -24,7 +29,7 @@ body {
 nav-link .dropdown-toggle {
   color: rgb(206 206 206 / 80%);
 }
-.dropdown-toggle::after {
+nav.dropdown-toggle::after {
   content: none;
 }
 .dropdown-menu.show {
@@ -59,3 +64,9 @@ button.navbar-toggler {
 .btn.btn-outline-success {
   border: none;
 }
+
+/*section*/
+
+/*movies*/
+
+/*footer*/
